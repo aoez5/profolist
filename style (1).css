@@ -1,0 +1,16 @@
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 20px;
+  color: cyan;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.glow {
+  box-shadow: 0 0 20px 4px cyan;
+  transition: all 0.3s ease-in-out;
+}
